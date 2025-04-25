@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="employee.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>👨‍💻 Employee Registration Form 👨‍💻</h2>
+
+    <form action="#" method="post">
+        <label class="icon-label" for="empid"><span>💼</span>Employee ID:</label>
+        <input type="text" id="empid" name="empid" required>
+
+        <label class="icon-label" for="fname"><span>🧑‍💼</span>First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+
+        <label class="icon-label" for="lname"><span>🧑‍🏫</span>Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+
+        <label class="icon-label" for="email"><span>📧</span>Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label class="icon-label" for="phone"><span>📱</span>Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label class="icon-label"><span>👫</span>Gender:</label>
+        <div class="radio-group gender-options">
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label>
+        </div>
+
+        <label class="icon-label" for="department"><span>🏢</span>Department:</label>
+        <select id="department" name="department">
+            <option value="HR">Human Resources</option>
+            <option value="Finance">Finance</option>
+            <option value="Development">Development</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Support">Support</option>
+        </select>
+
+        <label class="icon-label" for="remarks"><span>📝</span>Comments/Remarks:</label>
+        <textarea id="remarks" name="remarks" rows="4" placeholder="Enter remarks or comments..."></textarea>
+
+        <label class="icon-label"><span>💻</span>Skills:</label>
+        <div class="checkbox-group skills-options">
+            <input type="checkbox" name="skills" value="Java"> Java<br>
+            <input type="checkbox" name="skills" value="Python"> Python<br>
+            <input type="checkbox" name="skills" value="C++"> C++<br>
+            <input type="checkbox" name="skills" value="Web Development"> Web Development
+        </div>
+
+        <input type="submit" value="Register Employee">
+    </form>
+</div>
+
+</body>
+</html>
