@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eaf2f8;  /* Light blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #eaf2f8, #d1e3f3);  /* Soft light blue gradient */
+}
+
+/* Card container style */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    max-width: 1000px;  /* Prevent card stretching */
+}
+
+/* Card styles */
+.card {
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+/* Heading styles */
+.card h2, .card h3, .card h4 {
+    color: #2c3e50;  /* Dark grey for headings */
+}
+
+.card h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 1.4em;
+    color: #2980b9;  /* A soft blue for subheading */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Table Header with Gradient */
+th {
+    background: linear-gradient(135deg, #2980b9, #3498db);  /* Gradient for header */
+    color: white;
+    font-weight: bold;
+}
+
+/* Table Data Cells */
+td {
+    background-color: #f8f8f8;  /* Light grey background for data cells */
+    font-size: 0.9em;
+}
+
+/* Even row background with subtle gradient */
+tr:nth-child(even) {
+    background: linear-gradient(135deg, #f8f8f8, #ecf0f1);
+}
+
+/* Hover effect for rows */
+table tr:hover {
+    background-color: #d1f7ff;  /* Light blue hover effect */
+}
+
+/* Special style for the colspan cells */
+td[colspan="2"] {
+    background-color: #ffffff;
+}
+
+/* Style for break column */
+td.break-column {
+    background: #f39c12;  /* Soft orange for "break" column */
+    color: white;
+}
+
+/* Hover effect for break column */
+td.break-column:hover {
+    background: #e74c3c;  /* Change to red on hover */
+}
