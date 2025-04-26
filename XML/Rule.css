@@ -1,0 +1,64 @@
+/* Main container for the books */
+books {
+    display: block;
+    background-color: #1e1e2f;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/* Welcome heading */
+heading {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    color: #61dafb;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: #2c2f48;
+    border-radius: 10px;
+}
+
+/* Each individual book block */
+book {
+    display: block;
+    background-color: #2c2f48;
+    border-left: 5px solid #61dafb;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    transition: transform 0.3s ease;
+}
+
+book:hover {
+    transform: scale(1.02);
+}
+
+/* Fields within each book */
+title, author, publisher, edition, price {
+    display: block;
+    margin: 8px 0;
+}
+
+/* Title styling */
+title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fca311;
+}
+
+/* Author styling */
+author {
+    font-style: italic;
+    color: #bbbbbb;
+}
+
+/* Publisher, Edition, and Price styling */
+publisher, edition, price {
+    color: #cccccc;
+}

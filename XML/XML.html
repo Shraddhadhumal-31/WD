@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>XML Assignments</title>
+
+  <!-- Font Awesome CDN Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f8ffae, #43c6ac);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+
+    .heading {
+      background: rgba(255, 255, 255, 0.3);
+      padding: 20px 40px;
+      border-radius: 20px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      font-size: 2.5rem;
+      color: #2e3a59;
+      font-weight: bold;
+      margin-bottom: 40px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .assignments {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: center;
+      width: 100%;
+      max-width: 900px;
+    }
+
+    .assignment {
+      background: rgba(255, 255, 255, 0.25);
+      border-radius: 16px;
+      padding: 20px 30px;
+      text-align: center;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .assignment:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+    }
+
+    .assignment i {
+      font-size: 1.8rem;
+      color: #ff6b6b; /* Light red color for XML icon */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="heading">XML Assignments</div>
+
+  <div class="assignments">
+    <a class="assignment" href="books.xml" target="_blank">
+      <i class="fas fa-code"></i> BOOKS
+    </a>
+
+    <a class="assignment" href="library.xml" target="_blank">
+      <i class="fas fa-code"></i> LIBRARY
+    </a>
+
+    <a class="assignment" href="employee.xml" target="_blank">
+      <i class="fas fa-code"></i> EMPLOYEE
+    </a>
+
+    <a class="assignment" href="student.xml" target="_blank">
+      <i class="fas fa-code"></i> STUDENTS
+    </a>
+  </div>
+
+</body>
+</html>

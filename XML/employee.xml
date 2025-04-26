@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Rule1.css"?>
+<employees>
+    <heading>Company Employee Directory</heading>
+
+    <employee>
+        <name>Name -: John Doe</name>
+        <position>Position -: Software Engineer</position>
+        <department>Department -: Development</department>
+        <experience>Experience -: 5 Years</experience>
+        <salary>Salary -: $80,000</salary>
+    </employee>
+
+    <employee>
+        <name>Name -: Jane Smith</name>
+        <position>Position -: Product Manager</position>
+        <department>Department -: Product</department>
+        <experience>Experience -: 8 Years</experience>
+        <salary>Salary -: $95,000</salary>
+    </employee>
+
+    <employee>
+        <name>Name -: Michael Johnson</name>
+        <position>Position -: UX Designer</position>
+        <department>Department -: Design</department>
+        <experience>Experience -: 4 Years</experience>
+        <salary>Salary -: $70,000</salary>
+    </employee>
+</employees>

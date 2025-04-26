@@ -1,0 +1,73 @@
+students {
+    display: block;
+    background-color: #fdfdfd;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px;
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+}
+
+heading {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    color: #5e60ce;
+    text-align: center;
+    background-color: #e0e7ff;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    letter-spacing: 1px;
+}
+
+/* Each student is a soft card */
+student {
+    display: block;
+    background-color: #fff9fb;
+    border: 2px dashed #ffc6c7;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+student:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(255, 182, 193, 0.3);
+}
+
+/* Each data field */
+name, rollno, course, year, grade {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Styling individual elements */
+name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ff69b4;
+}
+
+rollno {
+    font-style: italic;
+    color: #777;
+}
+
+course {
+    color: #6a4c93;
+    font-weight: 500;
+}
+
+year {
+    color: #3a86ff;
+}
+
+grade {
+    color: #06d6a0;
+    font-weight: bold;
+}

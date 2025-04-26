@@ -1,0 +1,40 @@
+/* Main container for the employees */
+employees {
+    display: block;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    border-radius: 12px;
+    width: 85%;
+    margin: 40px auto;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading section */
+heading {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: #e0f7fa;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+}
+
+/* Employee card container */
+employee {
+    display: block;
+    background-color: #ffffff;
+    border-left: 5px solid #00bcd4;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    transition: box-shadow 0.3s ease;
+}
+
+employee:hover {
+    box-shadow: 0 4px 12px rgba(0, 188
