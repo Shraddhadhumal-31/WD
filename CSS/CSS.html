@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Assignments</title>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f7f48c, #f0f0f0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+
+    .heading {
+      background: rgba(255, 255, 255, 0.7);
+      padding: 20px 40px;
+      border-radius: 20px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      font-size: 2.5rem;
+      color: #2e3a59;
+      font-weight: bold;
+      margin-bottom: 40px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .assignments {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      width: 100%;
+      max-width: 900px;
+    }
+
+    .assignment {
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 16px;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .assignment:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+    }
+
+    .assignment i {
+      font-size: 24px;
+      color: #264de4; /* CSS3 blue color */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="heading">CSS Assignments</div>
+
+  <div class="assignments">
+    <a class="assignment" href="pr1.html" target="_blank">
+      <i class="fab fa-css3-alt"></i> Web Technology using CSS
+    </a>
+    <a class="assignment" href="pr2.html" target="_blank">
+      <i class="fab fa-css3-alt"></i> Inline CSS
+    </a>
+    <a class="assignment" href="pr3.html" target="_blank">
+      <i class="fab fa-css3-alt"></i> Internal CSS
+    </a>
+    <a class="assignment" href="pr4.html" target="_blank">
+      <i class="fab fa-css3-alt"></i> List Tags
+    </a>
+    <a class="assignment" href="pr5.html" target="_blank">
+      <i class="fab fa-css3-alt"></i> Images
+    </a>
+    <a class="assignment" href="pr6.html" target="_blank">
+      <i class="fab fa-css3-alt"></i> Frames
+    </a>
+    <a class="assignment" href="pr7.html" target="_blank">
+      <i class="fab fa-css3-alt"></i> External CSS
+    </a>
+    <a class="assignment" href="pr8.html" target="_blank">
+      <i class="fab fa-css3-alt"></i> Timetable
+    </a>
+    <a class="assignment" href="pr9.html" target="_blank">
+      <i class="fab fa-css3-alt"></i> Employee Registration Form
+    </a>
+    <a class="assignment" href="pr10.html" target="_blank">
+      <i class="fab fa-css3-alt"></i> Resume
+    </a>
+  </div>
+
+</body>
+</html>
