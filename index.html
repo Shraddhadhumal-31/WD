@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Development Assignments</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #87CEEB, #FFFACD); /* Sky blue and lemon yellow gradient */
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .container {
+      background: linear-gradient(135deg, #A8E6CF, #D4F1F4); /* Mint green to sky blue gradient for the container */
+      border-radius: 25px;
+      padding: 40px;
+      width: 90%;
+      max-width: 700px;
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+
+    .title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: #003366;
+      margin-bottom: 15px;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #006d77;
+      margin-bottom: 35px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .card {
+      background: #f1f9ff;
+      border-radius: 16px;
+      padding: 20px 25px;
+      margin: 15px 0;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+      background-color: #e0f7fa;
+    }
+
+    .icon {
+      font-size: 2rem;
+    }
+
+    .html { color: #e34f26; } /* HTML orange */
+    .css { color: #264de4; }  /* CSS blue */
+    .xml { color: #4caf50; }  /* XML green */
+
+    .label {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #003366;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">Web Development</div>
+    <div class="subtitle">
+      Name: <span style="color: #006d77;">Shraddha Chandrakant Dhumal.</span><br> 
+      Roll No.: <span style="color: #006d77;">123</span>
+    </div>
+
+    <!-- HTML Assignment Link -->
+    <a href="HTML/HTML.html" target="_blank">
+      <div class="card">
+        <i class="fab fa-html5 icon html"></i> <!-- Proper HTML icon -->
+        <span class="label">HTML Assignment</span>
+      </div>
+    </a>
+
+    <!-- CSS Assignment Link -->
+    <a href="CSS/CSS.html" target="_blank">
+      <div class="card">
+        <i class="fab fa-css3-alt icon css"></i> <!-- Proper CSS icon -->
+        <span class="label">CSS Assignment</span>
+      </div>
+    </a>
+
+    <!-- XML Assignment Link -->
+    <a href="XML/XML.html" target="_blank">
+      <div class="card">
+        <i class="fas fa-code icon xml"></i> <!-- Code icon for XML -->
+        <span class="label">XML Assignment</span>
+      </div>
+    </a>
+  </div>
+</body>
+</html>
