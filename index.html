@@ -4,8 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Web Development Assignments</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
-  <!-- Font Awesome CDN for icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <style>
     * {
@@ -16,7 +15,7 @@
     }
 
     body {
-      background: linear-gradient(135deg, #87CEEB, #FFFACD); /* Sky blue and lemon yellow gradient */
+      background: linear-gradient(135deg, #ece9e6, #ffffff);
       min-height: 100vh;
       display: flex;
       align-items: center;
@@ -25,25 +24,26 @@
     }
 
     .container {
-      background: linear-gradient(135deg, #A8E6CF, #D4F1F4); /* Mint green to sky blue gradient for the container */
-      border-radius: 25px;
-      padding: 40px;
-      width: 90%;
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 40px 30px;
+      width: 100%;
       max-width: 700px;
-      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
       text-align: center;
+      transition: all 0.3s ease;
     }
 
     .title {
       font-size: 2.5rem;
-      font-weight: 800;
-      color: #003366;
-      margin-bottom: 15px;
+      font-weight: 700;
+      color: #1e3a8a;
+      margin-bottom: 10px;
     }
 
     .subtitle {
       font-size: 1.1rem;
-      color: #006d77;
+      color: #475569;
       margin-bottom: 35px;
     }
 
@@ -52,36 +52,55 @@
     }
 
     .card {
-      background: #f1f9ff;
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
       border-radius: 16px;
-      padding: 20px 25px;
+      padding: 18px 22px;
       margin: 15px 0;
       display: flex;
       align-items: center;
+      justify-content: flex-start;
       gap: 15px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-      cursor: pointer;
-      transition: all 0.3s ease;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .card:hover {
-      transform: scale(1.03);
-      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
-      background-color: #e0f7fa;
+      transform: translateY(-4px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      background-color: #f0fdf4;
     }
 
     .icon {
       font-size: 2rem;
     }
 
-    .html { color: #e34f26; } /* HTML orange */
-    .css { color: #264de4; }  /* CSS blue */
-    .xml { color: #4caf50; }  /* XML green */
+    .html { color: #f97316; } /* Deep orange for HTML */
+    .css { color: #2563eb; }  /* Blue for CSS */
+    .xml { color: #10b981; }  /* Green for XML */
 
     .label {
       font-size: 1.2rem;
       font-weight: 600;
-      color: #003366;
+      color: #1e293b;
+    }
+
+    @media (max-width: 600px) {
+      .title {
+        font-size: 2rem;
+      }
+
+      .label {
+        font-size: 1rem;
+      }
+
+      .icon {
+        font-size: 1.5rem;
+      }
+
+      .card {
+        padding: 14px 18px;
+      }
     }
   </style>
 </head>
@@ -89,30 +108,27 @@
   <div class="container">
     <div class="title">Web Development</div>
     <div class="subtitle">
-      Name: <span style="color: #006d77;">Shraddha Chandrakant Dhumal.</span><br> 
-      Roll No.: <span style="color: #006d77;">123</span>
+      Name: <span style="color: #1d4ed8;">Shraddha Chandrakant Dhumal</span><br> 
+      Roll No.: <span style="color: #1d4ed8;">123</span>
     </div>
 
-    <!-- HTML Assignment Link -->
     <a href="HTML/HTML.html" target="_blank">
       <div class="card">
-        <i class="fab fa-html5 icon html"></i> <!-- Proper HTML icon -->
+        <i class="fab fa-html5 icon html"></i>
         <span class="label">HTML Assignment</span>
       </div>
     </a>
 
-    <!-- CSS Assignment Link -->
     <a href="CSS/CSS.html" target="_blank">
       <div class="card">
-        <i class="fab fa-css3-alt icon css"></i> <!-- Proper CSS icon -->
+        <i class="fab fa-css3-alt icon css"></i>
         <span class="label">CSS Assignment</span>
       </div>
     </a>
 
-    <!-- XML Assignment Link -->
     <a href="XML/XML.html" target="_blank">
       <div class="card">
-        <i class="fas fa-code icon xml"></i> <!-- Code icon for XML -->
+        <i class="fas fa-code icon xml"></i>
         <span class="label">XML Assignment</span>
       </div>
     </a>
